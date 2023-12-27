@@ -5,7 +5,7 @@ from pyrogram.errors import ChatAdminRequired, ChatNotModified, ChatIdInvalid, F
 import os
 import json
 from pyrogram.types import Message
-from AnieMusic.misc import SUDOERS
+from AMBOT.misc import SUDOERS
 
 
 @app.on_message(filters.command(["link", "invitelink"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & SUDOERS)
