@@ -11,7 +11,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from AMBOT import app
-from AMBOT.misc import SUDOERS
+from config import SUDO
 
 
 async def aexec(code, client, message):
@@ -30,13 +30,13 @@ async def edit_or_reply(msg: Message, **kwargs):
 
 @app.on_edited_message(
     filters.command("eval")
-    & filters.user(SUDOERS)
+    & filters.user(SUDO)
     & ~filters.forwarded
     & ~filters.via_bot
 )
 @app.on_message(
     filters.command("eval")
-    & filters.user(SUDOERS)
+    & filters.user(SUDO)
     & ~filters.forwarded
     & ~filters.via_bot
 )
@@ -140,13 +140,13 @@ async def forceclose_command(_, CallbackQuery):
 
 @app.on_edited_message(
     filters.command("sh")
-    & filters.user(SUDOERS)
+    & filters.user(SUDO)
     & ~filters.forwarded
     & ~filters.via_bot
 )
 @app.on_message(
     filters.command("sh")
-    & filters.user(SUDOERS)
+    & filters.user(SUDO)
     & ~filters.forwarded
     & ~filters.via_bot
 )
