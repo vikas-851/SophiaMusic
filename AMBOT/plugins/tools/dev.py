@@ -11,7 +11,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from AMBOT import app
-from AnieMusic.misc import SUDOERS
+from AMBOT.misc import SUDOERS
 
 
 async def aexec(code, client, message):
