@@ -1,7 +1,7 @@
 import math
 
 from pyrogram.types import InlineKeyboardButton
-from AMBOT import SUPPORT_CHAT, OWNER_USERNAME
+from config import SUPPORT_CHAT, OWNER_USERNAME
 from AMBOT.utils.formatters import time_to_seconds
 
 
