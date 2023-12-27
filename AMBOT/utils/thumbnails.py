@@ -94,7 +94,7 @@ async def get_thumb(videoid):
         
         # Adjust the font size here
         font_size = 40
-        font = ImageFont.truetype("AnieMusic/assets/font2.ttf", font_size)
+        font = ImageFont.truetype("AMBOT/assets/font2.ttf", font_size)
         font2_size = 70
         font2 = ImageFont.truetype("AMBOT/assets/font2.ttf", font2_size)
         arial = ImageFont.truetype("AMBOT/assets/font2.ttf", 30)
