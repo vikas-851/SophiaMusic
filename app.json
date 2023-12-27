@@ -52,6 +52,21 @@
         "value": "",
         "required": false
       },
+        "THUMNAME": {
+        "description": "thumbnail Name",
+        "value": "SophiaMusic",
+        "required": false
+      },
+        "OWNER_USERNAME": {
+        "description": "Bot Owner Username without @",
+        "value": "Sanam_King",
+        "required": false
+      },
+        "HEROKU_API_KEY": {
+        "description": "Your Heroku account's API key",
+        "value": "",
+        "required": false
+      },
       "LOGGER_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
         "value": "",
