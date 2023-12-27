@@ -15,6 +15,10 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+#thumbnail Name
+THUMNAME = getenv("THUMNAME","AmBot")
+#owner Username Without @
+OWNER_USERNAME = getenv("OWNER_USERNAME","Sanam_King")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
