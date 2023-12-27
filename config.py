@@ -22,6 +22,7 @@ OWNER_USERNAME = getenv("OWNER_USERNAME","Sanam_King")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "99999"))
 
+SUDO = list(map(int, getenv("SUDO", "6417481593 5360305806").split()))
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
