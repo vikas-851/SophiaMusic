@@ -24,7 +24,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "99999"))
 
 SUDO = list(map(int, getenv("SUDO", "6417481593 5360305806").split()))
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", -1002236470343))
 
 # Get this value from @Sophia_x_MusicBot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 6938549393))
@@ -37,7 +37,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/AbhiModszYT/SophiaMusic",
+    "https://github.com/vikas-851/SophiaMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
